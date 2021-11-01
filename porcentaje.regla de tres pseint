@@ -1,0 +1,39 @@
+
+
+Algoritmo porcentaje_de_ninos_y_ninas_en_un_curso
+	
+	Definir cantidad_ninos, cantidad_ninas,porcentaje Como Entero
+	
+	Escribir "cantidad total de alumnos en el curso";
+	
+	Leer total_alumnos;
+	
+	Escribir "cantidad de niños en el curso";
+	
+	Leer cantidad_ninos;
+	
+	Escribir "cantidad de niñas en el curso";
+	
+	Leer cantidad_ninas;
+	
+	//total_alumnos<-x100%
+	//cantidad_niños<-x1%
+	
+	//total_alumnos<-100%
+	//cantidad_niñas<-x2%
+	
+	Definir x1,x2 Como Real
+	
+	x1<-cantidad_ninos*100/total_alumnos;
+	
+	x2<-cantidad_ninas*100/total_alumnos;
+	
+	
+	Escribir "porcentaje de niños en el curso"," ",x1
+	
+	Escribir "porcentaje de niñas en el curso"," ",x2
+	
+	
+	
+FinAlgoritmo
+

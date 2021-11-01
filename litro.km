@@ -1,0 +1,20 @@
+Proceso combustible_gastado_en_N_kilometros
+	
+	Definir kilometros, litros, litros_cargados Como Real
+	
+	
+	Escribir "kilometros recorridos"
+	
+	Leer kilometros_recorridos;
+	
+	Escribir "litros de combustible cargados en la estacion"
+	
+	Leer litros_cargados
+	
+	litros<-kilometros_recorridos/litros_cargados
+	
+	Escribir "cantidad de litros de combustibles gastados", " ", litros
+	
+	
+	
+FinProceso

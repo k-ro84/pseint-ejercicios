@@ -1,0 +1,45 @@
+
+//CONDICIONAL MULTIPLE
+
+
+
+Algoritmo menu_de_opciones_para_op_algebraicas
+	
+	Definir num1,num2,resultado,suma ,resta,multiplicacion,division Como Real
+	definir n Como Caracter
+	
+	Escribir "elija primer numero";
+	Leer num1;
+	
+	Escribir "elija segundo numero";
+	Leer num2;
+	
+	Escribir "indique una operacion a realizar"
+	Leer   opc;
+	
+	Segun opc Hacer 
+		
+		
+		"s"  "S":	
+			
+			suma <- num1+num2;
+			Escribir "la suma es", resultado; 
+		"r" O "R" :	
+			
+			resta <- num1-num2;
+			Escribir "la resta es", resultado;
+		"m" O "M":	
+			
+			multiplicacion<- num1*num2;
+			Escribir "la mutiplicacion es", resultado;
+		"d" O "D":
+			
+			division <- num1/num2
+			Escribir "la division es", resultado;
+		5   De Otro Modo:
+				
+				Escribir "opcion no valida"
+	Fin Segun
+	
+FinAlgoritmo
+
